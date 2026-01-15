@@ -7,47 +7,34 @@ import Image from "next/image"
 
 const episodes = [
   {
-    id: 10,
+    id: 3,
+    title: "How Do I Love Thee? - Part 1",
+    date: "March 1, 2026",
+    duration: "45 mins",
+    slug: "episode-3",
+    image: "/sample3.jpg",
+    description:
+      "Why do we continue to believe in romance? And more importantly, how do we love?",
+  },
+  {
+    id: 2,
+    title: "This is Me",
+    date: "January 1, 2025",
+    duration: "48 mins",
+    slug: "episode-2",
+    image: "/sample2.jpg",
+    description:
+      "A deep dive into identity and self-expression through literature. We explore how authors craft authentic voices and create characters that resonate with readers.",
+  },
+  {
+    id: 1,
     title: "The Secret Life of Children's Literature - Part 1",
     date: "December 15, 2024",
-    duration: "45 mins",
-    slug: "secret-life-childrens-literature-part-1",
+    duration: "48 mins",
+    slug: "episode-1",
+    image: "/sample1.jpg",
     description:
       "Exploring the intricate balance between innocence and knowledge in children's literature, we uncover the hidden depths that make these stories resonate with readers of all ages.",
-  },
-  {
-    id: 9,
-    title: "Reimagining Classic Characters",
-    date: "December 8, 2024",
-    duration: "52 mins",
-    slug: "reimagining-classic-characters",
-    description:
-      "How classic literary characters continue to captivate modern readers and writers in the 21st century.",
-  },
-  {
-    id: 8,
-    title: "The Art of Literary Translation",
-    date: "December 1, 2024",
-    duration: "48 mins",
-    slug: "art-of-literary-translation",
-    description:
-      "Exploring the nuanced balance between fidelity and creativity when translating literary works from renowned translators.",
-  },
-  {
-    id: 7,
-    title: "Poetry in the Digital Age",
-    date: "November 24, 2024",
-    duration: "41 mins",
-    slug: "poetry-digital-age",
-    description: "How social media and technology are transforming contemporary poetry and reaching new audiences.",
-  },
-  {
-    id: 6,
-    title: "Gothic Literature's Modern Revival",
-    date: "November 17, 2024",
-    duration: "55 mins",
-    slug: "gothic-literature-modern-revival",
-    description: "Why Gothic themes continue to captivate modern readers and writers in the 21st century.",
   },
 ]
 
@@ -128,10 +115,10 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                 onClick={onClose}
                 className="block bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow group"
               >
-                <div className="flex gap-4">
+                  <div className="flex gap-4">
                   <div className="relative w-24 h-16 flex-shrink-0 rounded overflow-hidden">
                     <Image
-                      src="/grand-classical-library-interior.jpg"
+                      src={episode.image}
                       alt={episode.title}
                       fill
                       className="object-cover"

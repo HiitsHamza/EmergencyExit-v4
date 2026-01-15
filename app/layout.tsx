@@ -8,7 +8,12 @@ export const metadata: Metadata = {
   title: "The Emergency Exit Podcast",
   description:
     "A light hearted but deep minded podcast that throws open the magic chamber on important issues and poetry.",
-  generator: "v0.app",
+  generator: "Noth Technology Group",
+  icons: {
+    icon: "/logo bit.svg",
+    shortcut: "/logo bit.svg",
+    apple: "/logo bit.svg",
+  },
 }
 
 export default function RootLayout({

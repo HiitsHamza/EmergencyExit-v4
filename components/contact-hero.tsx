@@ -4,7 +4,7 @@ export function ContactHero() {
   return (
     <section className="relative h-[400px] overflow-hidden">
       <Image
-        src="/grand-classical-library-interior.jpg"
+        src="/sample2.jpg"
         alt="Contact The Emergency Exit Podcast"
         fill
         className="object-cover"

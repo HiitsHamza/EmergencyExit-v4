@@ -6,19 +6,19 @@ const episodes = [
     id: 1,
     title: "The Secret Life of Containers - Part 1",
     subtitle: "Host's favorite",
-    image: "/books-and-containers.jpg",
+    image: "/sample8.jpg",
   },
   {
     id: 2,
     title: "The Power of Marginalized Voices in Contemporary Fiction",
     subtitle: "Onaissa's choice",
-    image: "/vintage-books-and-papers.jpg",
+    image: "/sample9.jpg",
   },
   {
     id: 3,
     title: "Reimagining Classic Characters - Part 1",
     subtitle: "Personal pick",
-    image: "/classic-architecture-and-books.jpg",
+    image: "/sample1.jpg",
   },
 ]
 

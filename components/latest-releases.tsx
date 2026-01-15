@@ -10,25 +10,25 @@ const episodes = [
     id: 1,
     title: "The Secret Life of Children’s Literature - 1",
     slug: "secret-life-of-childrens-literature-1",
-    image: "/grand-classical-library-interior.jpg",
+    image: "/sample1.jpg",
   },
   {
     id: 2,
     title: "The Secret Life of Children’s Literature - 2",
     slug: "secret-life-of-childrens-literature-2",
-    image: "/stacked-vintage-books-on-desk.jpg",
+    image: "/sample2.jpg",
   },
   {
     id: 3,
     title: "How Do I Love Thee? -1",
     slug: "how-do-i-love-thee-1",
-    image: "/vintage-poetry-books-and-manuscripts.jpg",
+    image: "/sample3.jpg",
   },
   {
     id: 4,
     title: "How Do I Love Thee? -2",
     slug: "how-do-i-love-thee-2",
-    image: "/vintage-books-and-papers.jpg",
+    image: "/sample4.jpg",
   },
 ]
 

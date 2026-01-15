@@ -7,7 +7,7 @@ export function EpisodesHero() {
         <div className="max-w-6xl mx-auto">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="relative h-64">
-              <Image src="/grand-classical-library-interior.jpg" alt="Featured Episode" fill className="object-cover" />
+              <Image src="/sample3.jpg" alt="Featured Episode" fill className="object-cover" />
               <div className="absolute top-4 left-4">
                 <span className="bg-white/90 text-[#181e3a] px-3 py-1 rounded text-sm font-medium">Podcast 10</span>
               </div>

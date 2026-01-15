@@ -5,19 +5,19 @@ const episodes = [
     id: 1,
     title: "The Secret Life of Containers - Part 1",
     subtitle: "Exploring the hidden world",
-    image: "/books-and-containers.jpg",
+    image: "/sample5.jpg",
   },
   {
     id: 2,
     title: "The Power of Marginalized Voices in Contemporary Fiction",
     subtitle: "Literature and society",
-    image: "/vintage-books-and-papers.jpg",
+    image: "/sample6.jpg",
   },
   {
     id: 3,
     title: "Reimagining Classic Characters - Part 1",
     subtitle: "Modern interpretations",
-    image: "/classic-architecture-and-books.jpg",
+    image: "/sample7.jpg",
   },
 ]
 

@@ -1,6 +1,20 @@
-import { Search } from "lucide-react"
+"use client"
 
-export function EpisodesSearch() {
+import { useState } from "react"
+
+interface EpisodesSearchProps {
+  onSearchChange: (query: string) => void
+}
+
+export function EpisodesSearch({ onSearchChange }: EpisodesSearchProps) {
+  const [searchQuery, setSearchQuery] = useState("")
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value
+    setSearchQuery(value)
+    onSearchChange(value)
+  }
+
   return (
     <section className="bg-[#181e3a] py-12">
       <div className="max-w-4xl mx-auto px-4 text-center">
@@ -13,11 +27,10 @@ export function EpisodesSearch() {
           <input
             type="text"
             placeholder="Search"
-            className="w-full px-4 py-3 pr-12 rounded-lg border-0 focus:outline-none focus:ring-2 focus:ring-white/20"
+            value={searchQuery}
+            onChange={handleChange}
+            className="w-full px-4 py-3 rounded-lg bg-[#f5f5f5] text-gray-800 placeholder-gray-400 border-2 border-[#f5f5f5] focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-[#f5f5f5]"
           />
-          <button className="absolute right-2 top-1/2 -translate-y-1/2 bg-[#181e3a] text-white p-2 rounded">
-            <Search className="w-4 h-4" />
-          </button>
         </div>
       </div>
     </section>
