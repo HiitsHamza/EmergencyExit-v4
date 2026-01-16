@@ -178,7 +178,7 @@ export function EpisodeContent({ slug }: EpisodeContentProps) {
                     <img 
                       src="/guest3.jpeg" 
                       alt="Zaynub Aly" 
-                      className="w-48 h-48 object-cover relative z-10 grayscale"
+                      className="w-48 h-48 object-cover relative z-10"
                     />
                   </div>
                 </div>
