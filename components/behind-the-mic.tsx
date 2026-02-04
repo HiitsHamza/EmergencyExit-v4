@@ -81,14 +81,15 @@ export function BehindTheMic() {
                     <div className="w-40 h-40 md:w-50 md:h-50 lg:w-[32rem] lg:h-[32rem] rounded-full border-[5px] lg:border-[12px] border-gray-300 flex items-center justify-center overflow-hidden bg-[#181e3a]">
                       {/* Host image */}
                       <Image
-                        src="/host1.jpeg"
+                        src="/host3.jpg"
                         alt="Host"
                         width={576}
                         height={576}
                         className="w-full h-full object-cover"
                         style={{
-                          objectPosition: '80% 0%', // Adjust position: horizontal%, vertical% (lower % = show top of image)
-                          transform: 'scale(1.15)', // Adjust zoom: 1.0 = normal, 1.2 = 120% zoom, etc.
+                          objectPosition: '50% 25%', // Centered horizontally, face positioned nicely
+                          transform: 'scale(1)', // Slight zoom
+                          filter: 'saturate(0.9) brightness(1.03) contrast(0.97)', // Subtle desaturation for cooler feel
                         }}
                       />
                     </div>
